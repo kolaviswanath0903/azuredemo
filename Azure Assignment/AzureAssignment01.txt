@@ -1,0 +1,60 @@
+1. Download and install Git: [Git Download Link](https://git-scm.com/downloads)
+   
+   Create a Github Account:  https://github.com/
+
+   Create a GitHub Repository(public Repo)
+
+   open git bash / Terminal do the following
+
+2. Configure Global Settings:
+   - Set username:
+     
+     git config --global user.name "FIRST_NAME LAST_NAME"
+     
+   - Set email address:
+     
+     git config --global user.email "MY_NAME@example.com"
+     
+
+3. Set Up Your Local Project:
+   - Create a new folder on your local system.
+   - Open Command Prompt (CMD)/Git Bash and navigate to your new folder.
+   - Add or create files in this folder manually.
+
+    eg: cd foldername
+
+4. Commit Your Changes:
+   - Initialize Git in the folder:
+     
+     git init
+     
+   - Check the status of files:
+     
+     git status
+     
+   - Add all files to staging area:
+     
+     git add .
+     
+   - Commit changes with a message:
+     
+     git commit -m "Initial commit"
+     
+
+5. Push to GitHub:
+   - Link your local repository to GitHub:
+     
+     git remote add origin https://github.com/username/Your-Repo.git
+     
+   - Switch the branch to main:
+     
+     git branch -M main
+     
+   - Push local changes to GitHub:
+     
+     git push -u origin main
+
+
+  6. Enter Token/ Login via browser
+
+  7. Confirm the changes in Github Repo
